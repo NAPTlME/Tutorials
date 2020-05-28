@@ -2345,6 +2345,9 @@ namespace HelloXamarin
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
+			// aapt resource value: 0x7f0800b4
+			public const int about_app = 2131230900;
+			
 			// aapt resource value: 0x7f08009e
 			public const int action0 = 2131230878;
 			
@@ -2525,6 +2528,9 @@ namespace HelloXamarin
 			// aapt resource value: 0x7f080072
 			public const int expanded_menu = 2131230834;
 			
+			// aapt resource value: 0x7f0800b1
+			public const int file_settings = 2131230897;
+			
 			// aapt resource value: 0x7f080050
 			public const int fill = 2131230800;
 			
@@ -2542,6 +2548,9 @@ namespace HelloXamarin
 			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int help = 2131230899;
 			
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
@@ -2611,6 +2620,9 @@ namespace HelloXamarin
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int new_game1 = 2131230898;
 			
 			// aapt resource value: 0x7f080022
 			public const int none = 2131230754;
@@ -3100,6 +3112,22 @@ namespace HelloXamarin
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int popMenu = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

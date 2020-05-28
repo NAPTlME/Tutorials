@@ -15,7 +15,11 @@ namespace HelloXamarin
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             Button button = FindViewById<Button>(Resource.Id.MyButton);
-            button.Click += delegate { button.Text = "Hello world, I am your first App"; };
+            button.Click += (s, arg) => {
+                PopupMenu menu = new PopupMenu(this, button);
+                menu.Inflate(Resource.Menu.popMenu);
+                menu.Show();
+            };
         }
     }
 }
